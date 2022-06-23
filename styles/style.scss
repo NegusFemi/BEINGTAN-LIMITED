@@ -1,0 +1,500 @@
+$back-color: #04cffd0d;
+$brand-color: #0d1b22;
+
+@import "./buttons";
+
+//@import "./navigation";
+
+@import "./navigation2";
+
+@import "./footer";
+
+
+@font-face {
+    font-family: 'oldsman_no.1regular';
+    src: url('../fonts/oldsman-no.1-webfont.woff2') format('woff2'),
+         url('../fonts/oldsman-no.1-webfont.woff') format('woff'),
+         url('../fonts/Oldsman-No1.otf') format('otf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'moriartyregular';
+    src: url('../fonts/moriarty-webfont.woff2') format('woff2'),
+         url('../fonts/modern_no._20-webfont.woff') format('woff'),
+         url('../fonts/Moriarty.ttf') format('ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'cinzelregular';
+    src: url('../fonts/cinzel-regular-webfont.woff2') format('woff2'),
+         url('../fonts/cinzel-regular-webfont.woff') format('woff'),
+         url('../fonts/Cinzel-Regular.otf') format('otf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'artefactlightuploaded_file';
+    src: url('../fonts/artefact_light-webfont.woff2') format('woff2'),
+         url('../fonts/artefact_light-webfont.woff') format('woff'),
+         url('../fonts/Artefact\ Light.otf') format('otf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'gamourregular';
+    src: url('../fonts/gamour_regular-webfont.woff2') format('woff2'),
+         url('../fonts/gamour_regular-webfont.woff') format('woff'),
+         url('../fonts/Gamour\ Regular.otf') format('otf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'manchester_signatureregular';
+    src: url('../fonts/manchester_signature-webfont.woff2') format('woff2'),
+         url('../fonts/manchester_signature-webfont.woff') format('woff'),
+         url('../fonts/Manchester\ Signature.otf') format('otf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+*{
+    box-sizing: border-box !important;
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body, html {
+    min-height: 100vh !important;
+    overflow-x: hidden !important;
+    background-color: $back-color;
+}
+
+#header {
+    display: flex;
+}
+
+#home {
+    height: 100% !important;
+.container {
+    min-width: 100%;
+    height: 100vh;
+    margin-bottom: -25px;
+    padding-left: 20px;
+    padding-right: 20px;
+    background: $back-color;
+    position: relative;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+.carousel-item img {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 750px !important;
+    position: static;
+    padding-left: -40% !important;
+    z-index: 1;
+}
+.carousel-indicators {
+    position: relative;
+    top: 300px;
+    left: -6%;
+    right: 0;
+}
+.worded {
+    display: flex;
+    align-self: flex-start;
+    flex-wrap: nowrap;
+    padding-top: 107px;
+    color: $brand-color;
+    font-family: 'oldsman_no.1regular';
+    font-weight: 550;
+    font-size: 90px;
+    line-height: 0.8 !important;
+    text-transform: uppercase;
+    position: absolute;
+    z-index: 999;
+}
+#worded {
+    display: flex;
+    justify-content: center;
+    flex-wrap: nowrap;
+    padding-top: 255px;
+    font-family: 'oldsman_no.1regular';
+    font-weight: 550;
+    font-size: 53px;
+    -webkit-text-stroke: 2px;
+    -webkit-text-stroke-color: #242d33;
+    color: rgba(254, 255, 255, 0.969);
+    line-height: 1.0 !important;
+    text-transform: uppercase;
+    position: absolute;
+    z-index: 20;
+}
+.worded1 {
+    display: flex;
+    justify-content: flex-start;
+    white-space: nowrap;
+    padding-top: 18px;
+    color: $brand-color;
+    font-family: 'oldsman_no.1regular';
+    font-weight: 550;
+    font-size: 140px;
+    position: relative;
+    line-height: 0.8 !important;
+    text-transform: uppercase;
+    z-index: 99;
+}
+.text-company {
+    padding-top: 309px;
+    color: $brand-color;
+    font-family: 'oldsman_no.1regular';
+    font-weight: 550;
+    font-size: 77px;
+    text-transform: uppercase;
+    position: absolute;
+    z-index: 2;
+}
+
+/* CURSOR FOR TYPEWRITER */
+#worded:after {
+    content: "";
+    position: absolute;
+    height: 3.5rem;
+    width: 4px;
+    top: 260px;
+    right: -5px;
+    border-right: 2px solid rgb(243, 248, 245);
+    animation: blink 0.5s infinite ease;
+}
+@keyframes blink {
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+}
+}
+
+#home:before {
+    display: block;
+    content: "";
+    margin-top: 3px;
+    height: 43px;
+    visibility: hidden;
+}
+
+#details {
+    height: 100%;
+    background: $back-color;
+.container {
+    display: flex;
+    height: 100vh;
+    width: 100%;
+    margin-top: 25px;
+    padding-left: 20px;
+    padding-right: 20px;
+    position: relative;
+    z-index: 0;
+.details-left {
+    position: absolute;
+    font-family: 'oldsman_no.1regular';
+    font-weight: 600;
+    font-size: 53px;
+    color: $brand-color;
+    line-height: 1.0 !important;
+    padding-top: 30px;
+    z-index: 3;
+    text-align: center;
+    flex-wrap: nowrap;
+.details-image {
+    width: 670px;
+    height: 690px;
+    //position: absolute;
+    display: flex;
+    justify-content: start;
+    align-self: flex-start;
+    /*top: 50%;
+    transform: translateY(-50%);
+    left: -70px;*/
+    z-index: -1;
+}
+}
+.details-right {
+    //position: relative;
+    width: 100%;
+    margin-top: 120px;
+    margin-right: 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: end;
+    white-space: nowrap;
+    font-family: 'cinzelregular';
+    font-weight: 800;
+    font-size: 16px;
+    line-height: 2.8 !important;
+    color: $brand-color;
+    z-index: 2;
+}
+}
+}
+
+#services {
+    height: 100%;
+.container {
+    height: 100vh;
+    min-width: 100%;
+    padding-left: 20px;
+    padding-right: 20px;
+    background: $back-color;
+    position: relative;
+    overflow: hidden;
+.services-title {
+    font-family: 'oldsman_no.1regular';
+    font-weight: 200;
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+    color: $brand-color;
+    padding-top: 7px;
+}
+hr {
+    width: 265px;
+    height: 2px;
+    color: $brand-color;
+    margin: 0 36% auto;
+    opacity: 1;
+}
+.services-title-2 {
+    font-family: 'gamourregular';
+    font-weight: 700;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    color: $brand-color;
+    padding-top: 10px;
+    line-height: 1.3;
+}
+.services-container {
+    width: 100%;
+    height: 315px;
+    background: #ccc;
+    display: flex;
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+    box-shadow: 0 30px 60px -12px rgba(100,70,93,.09),
+    0 18px 36px -18px rgba(0,40,0,.09),
+    0 -12px 36px -8px rgba(0,60,0,.09),
+    0 -12px 36px -8px rgba(0,50,0,.09);
+&:hover img {
+    max-width: 170px;
+    margin-top: -15px !important;
+}
+.col {
+    height: 100%;
+    flex: 1;
+    color: #fff;
+    box-sizing: border-box;
+    padding: 10px;
+    position: relative;
+    transition: 1.0s;
+&:hover .caption {
+    display: block;
+}
+&:nth-child(1) {
+    background: #ddb6c6df;
+}
+&:nth-child(2) {
+    background:#b2b7ff30;
+}
+&:nth-child(3) {
+    background: #c8d9eb;
+}
+&:nth-child(4) {
+    background: #c4c1e0;
+}
+h1 {
+    font-family: 'oldsman_no.1regular';
+    font-weight: 700;
+    font-size: 23px;
+    color: #263a34;
+    text-align: center;
+}
+img {
+    width: 220px;
+    position: absolute;
+    right: 0;
+    left: 0;
+    z-index: 1;
+}
+&:hover {
+    flex-grow: 10;
+}
+&:hover h1 {
+    text-align: center;
+}
+.caption {
+    max-width: 430px;
+    font-family: 'gamourregular';
+    font-weight: 700;
+    font-size: 14px;
+    color: #263a34;
+    margin: -5px 0;
+    display: none;
+}
+}
+}
+}
+}
+
+#client-section {
+    height: 100%;
+    //background: $back-color;
+.container {
+    min-width: 100%;
+    height: 100vh;
+    background: $back-color;
+    margin-top: -0px;
+    padding-top: 25px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 100px;
+    position: relative;
+    z-index: 99;
+.client-flex {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+.client-title {
+    font-family: 'oldsman_no.1regular';
+    font-weight: 200;
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: $brand-color;
+    width: 100%;
+}
+hr {
+    width: 265px;
+    height: 2px;
+    color: $brand-color;
+    margin: 0 35% auto;
+    opacity: 1;
+}
+.client-description {
+    font-family: 'gamourregular';
+    font-weight: 600;
+    font-size: 18px;
+    color: $brand-color;
+    padding-top: 10px;
+    line-height: 1.2;
+}
+.client-left {
+    //position: absolute;
+    //right: 0;
+    //left: 0;
+    //width: 50%;
+    margin-left: -50px;
+    border-radius: 7px;
+}
+.overlay {
+    width: 35%;
+    height: 55%;
+    position: absolute;
+    top: 185px;
+    left: 50px;
+    bottom: 0px;
+    border-radius: 7px;
+    cursor: pointer;
+    background: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9));
+    opacity: 0;
+    transition: 1s;
+    z-index: 99;
+p {
+    font-family: 'gamourregular';
+    font-weight: 200;
+    font-size: 12px;
+    color: #fff;
+    padding: 16px 25px;
+    line-height: 1.7;
+}
+h2 {
+    font-family: 'gamourregular';
+    font-weight: 200;
+    font-size: 10px;
+    text-align: center;
+    color: #fff;
+}
+&:hover {
+    opacity: 1;
+}
+}
+.client-right {
+    font-family: 'oldsman_no.1regular';
+    font-weight: 200;
+    font-size: 30px;
+    color: $brand-color;
+    display: flex;
+    padding-left: 0px;
+    flex-basis: 100%;
+    height: 100%;
+    flex-direction: row;
+    justify-content: flex-start;
+    //line-height: -18.6;
+    flex-wrap: wrap;
+    z-index: 0;
+img {
+    max-width: 165px;
+    padding: 20px;
+    margin-left: -30px;
+}
+.client-1 {
+    align-self: flex-end;
+}
+
+.client-3 {
+    align-self: flex-end;
+}
+
+.client-4 {
+    align-self: flex-start;
+}
+
+.client-5 {
+    align-self: flex-end;
+}
+}
+}
+}
+
+#overlay-body {
+    position: fixed;
+    right: 0;
+    left: 0;
+    top: 0;
+    left: 0;
+    z-index: 99999999999999999999999999999;
+    cursor: pointer;
+    display: none;
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    background-color: rgba(32, 17, 39, 0.12);
+}

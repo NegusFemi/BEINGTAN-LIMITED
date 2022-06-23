@@ -1,0 +1,59 @@
+.btn-1 {
+    position: absolute;
+    top: 78%;
+    left: 55%;
+    transform: translateX(-50%);
+    z-index: 60000;
+a {
+    text-decoration: none;
+    color: #012721;
+    border: 1px solid rgb(4, 61, 71);
+    display: inline-block;
+    padding: 12px 0;
+    margin: 0 10px;
+    width: 150px;
+    position: relative;
+    font-family: 'moriartyregular';
+    font-weight: 600;
+    font-size: 13px;
+    text-align: center;
+    z-index: 1;
+  }
+a span {
+    width: 0%;
+    height: 100%;
+    background: #0d1b22;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    transition: 1s;
+  }
+a:hover span {
+    width: 100%;
+  }
+a:hover {
+    color: rgb(246, 252, 253);
+    font-family: 'moriartyregular';
+  }
+}
+
+/*service section button*/
+.btn-2 {
+  border: 1px solid rgb(252, 251, 251);
+  background: transparent;
+  outline: none;
+  padding: 7px 15px;
+  color: rgb(2, 70, 75);
+  float: right;
+  border-radius: 30px;
+  margin-top: 10px;
+  cursor: pointer;
+  font-size: 12px;
+  font-weight: 600;
+&:hover {
+  color: #fff;
+  background: $brand-color;
+  transition: 1.0s;
+}
+ }

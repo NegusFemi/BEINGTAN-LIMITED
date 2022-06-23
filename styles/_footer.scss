@@ -1,0 +1,131 @@
+#contact {
+    height: 100%;
+.container {
+    height: 100vh;
+    min-width: 100%;
+    margin-top: 0px;
+    background-color: #c8d9eb;
+    padding-left: 20px !important;
+    padding-right: 20px !important;
+    position: relative;
+    display: flex;
+.contact-title {
+    font-family: 'oldsman_no.1regular';
+    font-weight: 200;
+    font-size: 55px;
+    display: flex;
+    justify-content: center;
+    color: $brand-color;
+    width: 100%;
+    padding-top: 20px;
+    position: absolute;
+}
+hr {
+    width: 170px;
+    height: 2px;
+    color: $brand-color;
+    margin: 0 41% auto;
+    opacity: 1;
+    padding: 0px;
+    box-sizing: border-box;
+    position: absolute;
+    top: 95px;
+}
+.contact-circle {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    position: absolute;
+    max-width: 200px;
+    //font-family: 'artefactlightuploaded_file';
+    font-weight: 600;
+    color: $brand-color;
+    cursor: pointer;
+    animation: move-up 2s infinite alternate;
+
+}
+@keyframes move-up {
+    from {
+        transform: translateY(0);
+    }
+    to {
+        transform: translateY(3rem);
+    }
+}
+.contact-africa {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    opacity: 0.2;
+}
+.contact-1 {
+    font-family: 'artefactlightuploaded_file';
+    font-weight: 600;
+    font-size: 23px;
+    color: $brand-color;
+    position: absolute;
+    line-height: 1.4;
+    display: flex;
+    align-self: center;
+    left: 50%;
+    transform: translateX(-50%);
+p {
+    font-family: 'manchester_signatureregular';
+    font-weight: 500;
+    font-size: 45px;
+    color: $brand-color;
+    position: absolute;
+    line-height: 1.2;
+    display: flex;
+    align-self: center;
+    top: 95%;
+    left: 40%;
+    transform: translateX(-60%);
+}
+}
+.contact-social {
+    font-family: 'artefactlightuploaded_file';
+    font-weight: 600;
+    font-size: 22px;
+    color: $brand-color;
+    position: absolute;
+    left: 75%;
+    align-self: center;
+ul li {
+    text-decoration: none;
+    list-style: none;
+    cursor: pointer;
+    line-height: 1.2;
+}
+h3 {
+    color: rgb(0, 15, 19);
+    margin-left: -30px;
+    white-space: nowrap;
+    font-family: 'artefactlightuploaded_file';
+    font-weight: 600;
+    font-size: 30px;
+}
+}
+.contact-footer {
+    position: absolute;
+    padding-top: 8px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-left: -20px;
+    font-family: 'artefactlightuploaded_file';
+    width: 100%;
+    font-weight: 700;
+    font-size: 12px;
+    color:  rgb(2, 22, 27);
+    display: flex;
+    justify-content: space-between;
+    align-self: flex-end;
+    background-color: $back-color;
+p {
+    justify-content: center;
+    align-self: center;
+}
+}
+}
+}

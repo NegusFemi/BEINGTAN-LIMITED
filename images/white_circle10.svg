@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="320"
+   height="380"
+   viewBox="0 0 84.666667 100.54167"
+   version="1.1"
+   id="svg8"
+   sodipodi:docname="white_circle10.svg"
+   inkscape:version="1.0.1 (3bc2e813f5, 2020-09-07)">
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1366"
+     inkscape:window-height="702"
+     id="namedview10"
+     showgrid="false"
+     showborder="false"
+     inkscape:zoom="0.43888889"
+     inkscape:cx="218.57942"
+     inkscape:cy="429.84802"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg8"
+     inkscape:document-rotation="0" />
+  <defs
+     id="defs2" />
+  <metadata
+     id="metadata5">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     id="g41">
+    <g
+       id="layer1"
+       transform="matrix(0.22431384,0,0,0.22431384,-23.089267,4.987334)"
+       style="fill:#ffffff;stroke-width:4.45804">
+      <g
+         id="g1072"
+         transform="matrix(0.63026297,0,0,0.63026297,53.903949,116.13079)"
+         style="fill:#ffffff;stroke-width:7.0733">
+        <circle
+           style="fill:#ffffff;stroke:none;stroke-width:4.18738;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;paint-order:markers fill stroke"
+           id="path833"
+           cx="183.7612"
+           cy="288.12991"
+           r="158.45399"
+           transform="rotate(-30.379358)" />
+        <circle
+           style="fill:#ffffff;stroke:none;stroke-width:4.18738;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;paint-order:markers fill stroke"
+           id="circle835"
+           cx="209.00098"
+           cy="283.87921"
+           r="131.99567"
+           transform="rotate(-30.379358)" />
+        <circle
+           style="fill:#ffffff;stroke:none;stroke-width:4.18738;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;paint-order:markers fill stroke"
+           id="circle837"
+           cx="207.80508"
+           cy="284.8204"
+           r="124.81411"
+           transform="rotate(-30.379359)" />
+      </g>
+    </g>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.49224px;line-height:1.05;font-family:Cinzel;-inkscape-font-specification:'Cinzel, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#0d1b22;fill-opacity:1;stroke-width:0.264583"
+       x="12.805083"
+       y="51.744259"
+       id="text24"><tspan
+         sodipodi:role="line"
+         id="tspan22"
+         x="12.805083"
+         y="51.744259"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.49224px;font-family:Cinzel;-inkscape-font-specification:'Cinzel, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#0d1b22;fill-opacity:1;stroke-width:0.264583">      GET</tspan><tspan
+         sodipodi:role="line"
+         x="12.805083"
+         y="59.611111"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.49224px;font-family:Cinzel;-inkscape-font-specification:'Cinzel, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#0d1b22;fill-opacity:1;stroke-width:0.264583"
+         id="tspan26">IN TOUCH</tspan></text>
+  </g>
+</svg>

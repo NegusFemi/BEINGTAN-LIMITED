@@ -1,0 +1,146 @@
+@font-face {
+  font-family: "oldsman_no.1regular";
+  src: url("../fonts/oldsman-no.1-webfont.woff2") format("woff2"), url("../fonts/oldsman-no.1-webfont.woff") format("woff"), url("../fonts/Oldsman-No1.otf") format("otf");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "moriartyregular";
+  src: url("../fonts/moriarty-webfont.woff2") format("woff2"), url("../fonts/modern_no._20-webfont.woff") format("woff"), url("../fonts/Moriarty.ttf") format("ttf");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "cinzelregular";
+  src: url("../fonts/cinzel-regular-webfont.woff2") format("woff2"), url("../fonts/cinzel-regular-webfont.woff") format("woff"), url("../fonts/Cinzel-Regular.otf") format("otf");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "artefactlightuploaded_file";
+  src: url("../fonts/artefact_light-webfont.woff2") format("woff2"), url("../fonts/artefact_light-webfont.woff") format("woff"), url("../fonts/Artefact Light.otf") format("otf");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "gamourregular";
+  src: url("../fonts/gamour_regular-webfont.woff2") format("woff2"), url("../fonts/gamour_regular-webfont.woff") format("woff"), url("../fonts/Gamour Regular.otf") format("otf");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "manchester_signatureregular";
+  src: url("../fonts/manchester_signature-webfont.woff2") format("woff2"), url("../fonts/manchester_signature-webfont.woff") format("woff"), url("../fonts/Manchester Signature.otf") format("otf");
+  font-weight: normal;
+  font-style: normal;
+}
+html {
+  scroll-behavior: smooth;
+}
+
+body, html {
+  min-height: 100vh !important;
+  overflow-x: hidden !important;
+}
+
+#header-3 .container {
+  min-width: 100%;
+  min-height: 200px;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  position: relative;
+  overflow-y: hidden;
+}
+#header-3 .container .home-icon {
+  position: absolute;
+  max-width: 10px;
+  max-height: 10px;
+  font-family: "oldsman_no.1regular";
+  font-weight: 200;
+  font-size: 13px;
+  padding-left: 14px;
+}
+#header-3 .container .back-image2 {
+  min-width: 100%;
+  min-height: 210px;
+  padding: 0 !important;
+  margin: 0 !important;
+  background-color: #c8d9eb;
+  /*FALLBACK COLOR*/
+  background: linear-gradient(to bottom, rgba(247, 115, 247, 0.2), rgba(31, 115, 136, 0.2)), url("../images/team_presentation__monochromatic.svg");
+  background-repeat: no-repeat;
+  background-position: center left;
+  background-size: auto;
+  overflow-y: hidden;
+}
+#header-3 .container .left-title {
+  position: absolute;
+  left: 57.7%;
+  transform: translateX(-40%);
+  padding-top: 25px !important;
+  margin: 0 !important;
+  color: #0d1b22;
+  font-family: "oldsman_no.1regular";
+  font-weight: 200;
+  font-size: 72px;
+  line-height: 1 !important;
+  text-transform: uppercase;
+  white-space: nowrap;
+}
+#header-3 .container .left-title2 {
+  position: absolute;
+  left: 58.5%;
+  transform: translateX(-41.5%);
+  padding-top: 3px !important;
+  padding-bottom: 3px !important;
+  margin-top: 60px !important;
+  color: rgb(32, 46, 46);
+  font-family: "oldsman_no.1regular";
+  font-weight: 200;
+  font-size: 55px;
+  text-transform: uppercase;
+  display: flex;
+  align-self: center;
+  white-space: nowrap;
+  border-top: #0d1b22 2px solid;
+  border-bottom: #0d1b22 2px solid;
+}
+
+#content .container {
+  width: 100%;
+  background: #f5f6fc;
+  position: relative;
+  overflow-y: hidden;
+}
+#content .container .content-body {
+  font-family: "cinzelregular";
+  font-weight: 700;
+  font-size: 15px;
+  padding-top: 20px;
+  line-height: 1.4;
+  padding-left: 12px !important;
+  padding-right: 12px !important;
+  text-align: center;
+}
+#content .container .content-competence {
+  font-family: "cinzelregular";
+  font-weight: 200;
+  font-size: 20px;
+  line-height: 1.3;
+  padding-left: 12px !important;
+  padding-right: 12px !important;
+  padding-top: -35px;
+  margin-bottom: -35px;
+  padding-bottom: 30px;
+  text-align: center;
+}
+#content .container .content-competence h2 {
+  font-family: "oldsman_no.1regular";
+  font-weight: 200;
+  font-size: 50px;
+  color: #0d1b22;
+  text-align: center;
+  margin-top: 15px;
+  margin-bottom: 0;
+}/*# sourceMappingURL=project.css.map */
