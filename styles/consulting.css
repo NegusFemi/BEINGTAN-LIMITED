@@ -66,8 +66,7 @@ body, html {
   min-height: 200px;
   padding: 0 !important;
   margin: 0 !important;
-  background-color: #c8d9eb;
-  /*FALLBACK COLOR*/
+  background-color: #c8d9eb; /*FALLBACK COLOR*/
   background: linear-gradient(to bottom, rgba(247, 115, 247, 0.2), rgba(31, 115, 136, 0.2)), url("../images/brainstorming_session.svg");
   background-repeat: no-repeat;
   background-position: center center;

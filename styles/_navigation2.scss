@@ -1,37 +1,38 @@
 #header {
-    display: flex;
-    justify-content: space-between;
     .nav-container {
-    //position: relative;
+    position: relative;
     height: 0.1vh;
     width: 100%;
-    .logo {
-        position: absolute;
-        top: 0.4%;
-        left: 50%;
-        transform: translateX(-50%);
-        width: 15%;
-        //height: 7%;
-        cursor: pointer;
-        z-index: 999999;
-    }
     .navbar {
         background-color: white;
         position: relative;
         height: 40px;
         z-index: 999;
+        .logo-container {
+            display: flex;
+            //justify-content: space-between !important;
+            .logo {
+                position: absolute;
+                top: 0.8%;
+                left: 50%;
+                transform: translateX(-50%);
+                width: 175px;
+                height: 45px;
+                cursor: pointer;
+                z-index: 999999;
+                image-rendering: auto;
+            }
     #menuBtn {
-        display: flex;
-        justify-content: flex-end;
         position: fixed;
         width: 50px !important;
         left: 92%;
         height: 10px;
         top: 5%;
         transform: translateY(-95%);
-        z-index: 999999999999999999999999;
+        z-index: 999999999999999999999999999999999999;
         cursor: pointer;
     }
+}
     .navbar-nav li a {
         position: absolute;
         top: 50%;
@@ -135,4 +136,39 @@
         padding: 0 20px;
         overflow: hidden;
         width: 100%;
+    }
+
+    /*MEDIA QUERY FOR MOBILE AND TABLET VIEW */
+    @media (max-width:990px) {
+        #header {
+            .nav-container {
+            display: flex;
+            justify-content: space-between;
+            position: relative;
+            height: 0.1vh;
+            width: 100%;
+            padding-left: 80px !important;
+            padding-right: 220px !important;
+            .logo {
+                position: absolute;
+                top: 3px;
+                //left: 34px;
+                transform: translateX(0%);
+                height: 45px !important;
+                width: 160px !important;
+                cursor: pointer;
+                z-index: 999999;
+            }
+            #menuBtn {
+                position: fixed;
+                width: 50px !important;
+                left: 92%;
+                height: 10px;
+                top: 0%;
+                transform: translateY(-8%);
+                z-index: 999999999999999999999999;
+                cursor: pointer;
+            }
+        }
+        }
     }
