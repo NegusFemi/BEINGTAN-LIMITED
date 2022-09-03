@@ -1,20 +1,13 @@
 $back-color: #f5f6fc;
 $brand-color: #0d1b22;
 
+@import "./mediaProcess";
+
 @font-face {
     font-family: 'oldsman_no.1regular';
     src: url('../fonts/oldsman-no.1-webfont.woff2') format('woff2'),
          url('../fonts/oldsman-no.1-webfont.woff') format('woff'),
          url('../fonts/Oldsman-No1.otf') format('otf');
-    font-weight: normal;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'moriartyregular';
-    src: url('../fonts/moriarty-webfont.woff2') format('woff2'),
-         url('../fonts/modern_no._20-webfont.woff') format('woff'),
-         url('../fonts/Moriarty.ttf') format('ttf');
     font-weight: normal;
     font-style: normal;
 }
@@ -29,28 +22,9 @@ $brand-color: #0d1b22;
 }
 
 @font-face {
-    font-family: 'artefactlightuploaded_file';
-    src: url('../fonts/artefact_light-webfont.woff2') format('woff2'),
-         url('../fonts/artefact_light-webfont.woff') format('woff'),
-         url('../fonts/Artefact\ Light.otf') format('otf');
-    font-weight: normal;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'gamourregular';
-    src: url('../fonts/gamour_regular-webfont.woff2') format('woff2'),
-         url('../fonts/gamour_regular-webfont.woff') format('woff'),
-         url('../fonts/Gamour\ Regular.otf') format('otf');
-    font-weight: normal;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'manchester_signatureregular';
-    src: url('../fonts/manchester_signature-webfont.woff2') format('woff2'),
-         url('../fonts/manchester_signature-webfont.woff') format('woff'),
-         url('../fonts/Manchester\ Signature.otf') format('otf');
+    font-family: 'socium_freeregular';
+    src: url('../FONTS/sociumfree-regular-webfont.woff2') format('woff2'),
+         url('../FONTS/sociumfree-regular-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 }

@@ -1,12 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <svg
-   xmlns:dc="http://purl.org/dc/elements/1.1/"
-   xmlns:cc="http://creativecommons.org/ns#"
-   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-   xmlns:svg="http://www.w3.org/2000/svg"
-   xmlns="http://www.w3.org/2000/svg"
-   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
-   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    version="1.1"
    id="Layer_1"
    x="0px"
@@ -15,7 +8,14 @@
    style="enable-background:new 0 0 1920 1080;"
    xml:space="preserve"
    sodipodi:docname="skyscraper_1.svg"
-   inkscape:version="1.0.1 (3bc2e813f5, 2020-09-07)"><sodipodi:namedview
+   inkscape:version="1.1.2 (b8e25be833, 2022-02-05)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:dc="http://purl.org/dc/elements/1.1/"><sodipodi:namedview
    pagecolor="#ffffff"
    bordercolor="#666666"
    borderopacity="1"
@@ -24,23 +24,24 @@
    guidetolerance="10"
    inkscape:pageopacity="0"
    inkscape:pageshadow="2"
-   inkscape:window-width="1366"
-   inkscape:window-height="702"
+   inkscape:window-width="1920"
+   inkscape:window-height="974"
    id="namedview282"
    showgrid="false"
    inkscape:snap-global="false"
    inkscape:zoom="0.43888889"
-   inkscape:cx="912.1519"
-   inkscape:cy="335.43203"
-   inkscape:window-x="-8"
-   inkscape:window-y="-8"
+   inkscape:cx="912.53164"
+   inkscape:cy="334.93671"
+   inkscape:window-x="-11"
+   inkscape:window-y="-11"
    inkscape:window-maximized="1"
    inkscape:current-layer="Layer_1"
    inkscape:document-rotation="0"
-   showborder="false" /><metadata
+   showborder="false"
+   inkscape:pagecheckerboard="0" /><metadata
    id="metadata631"><rdf:RDF><cc:Work
        rdf:about=""><dc:format>image/svg+xml</dc:format><dc:type
-         rdf:resource="http://purl.org/dc/dcmitype/StillImage" /><dc:title /></cc:Work></rdf:RDF></metadata><defs
+         rdf:resource="http://purl.org/dc/dcmitype/StillImage" /></cc:Work></rdf:RDF></metadata><defs
    id="defs629">
 	
 	
@@ -379,9 +380,9 @@
    inkscape:collect="always"
    style="color-interpolation-filters:sRGB"
    id="filter2062"
-   x="-0.15552001"
+   x="-0.15552"
    width="1.31104"
-   y="-0.15552001"
+   y="-0.15552"
    height="1.31104"><feGaussianBlur
      inkscape:collect="always"
      stdDeviation="27.755441"
@@ -410,7 +411,8 @@
 
 
 <g
-   id="g2232"><circle
+   id="g2232"
+   transform="matrix(0.90040635,0,0,0.90040635,94.160933,17.324483)"><circle
      style="fill:#e4dde5;stroke-width:2.05982;stroke-linecap:round;stroke-linejoin:round;paint-order:markers fill stroke;filter:url(#filter2062)"
      id="path185-3"
      cx="697.7547"
@@ -424,11 +426,11 @@
        style="stroke-width:1.06929"
        transform="matrix(1.015565,0,0,1.015565,-347.32301,-76.175067)"><polygon
          class="st1"
-         points="1000.16,786.9 1062.84,786.9 1062.84,266.97 1034.14,266.97 1034.14,209.68 1028.85,209.68 1028.85,266.97 1000.16,266.97 "
+         points="1028.85,209.68 1028.85,266.97 1000.16,266.97 1000.16,786.9 1062.84,786.9 1062.84,266.97 1034.14,266.97 1034.14,209.68 "
          id="polygon14"
          style="stroke-width:1.06929" /><polygon
          class="st9"
-         points="1000.16,786.9 1062.84,786.9 1062.84,266.97 1034.14,266.97 1034.14,209.68 1028.85,209.68 1028.85,266.97 1000.16,266.97 "
+         points="1028.85,209.68 1028.85,266.97 1000.16,266.97 1000.16,786.9 1062.84,786.9 1062.84,266.97 1034.14,266.97 1034.14,209.68 "
          id="polygon16"
          style="stroke-width:1.06929" /><rect
          x="628.21997"
@@ -628,7 +630,7 @@
          id="rect88"
          style="stroke-width:1.06929" /><polygon
          class="st1"
-         points="1208.76,619.46 1208.76,786.9 1325.68,786.9 1325.68,661.26 "
+         points="1208.76,786.9 1325.68,786.9 1325.68,661.26 1208.76,619.46 "
          id="polygon90"
          style="stroke-width:1.06929" /><rect
          x="714.78998"
@@ -2455,7 +2457,7 @@
              style="stroke-width:0.323828" /></g></g><polygon
          opacity="0.9"
          fill="#ffbe55"
-         points="169.867,221.856 164.469,221.856 163.626,209.901 170.628,209.901 "
+         points="164.469,221.856 163.626,209.901 170.628,209.901 169.867,221.856 "
          id="polygon293"
          style="stroke-width:0.323828"
          transform="matrix(1.515253,0,0,1.515253,216.65846,304.44155)" /><g
@@ -2583,14 +2585,14 @@
          transform="matrix(1.5795951,0,0,1.5795951,115.51178,289.76555)"
          style="stroke-width:0.676938"><polygon
            fill="#dba585"
-           points="280.846,191.493 280.846,194.558 284.696,191.681 "
+           points="284.696,191.681 280.846,191.493 280.846,194.558 "
            id="polygon103"
            style="stroke-width:0.265925" /></g><g
          id="g109"
          transform="matrix(1.5795951,0,0,1.5795951,115.51178,289.76555)"
          style="stroke-width:0.676938"><polygon
            fill="#cfc3bc"
-           points="282.443,192.579 287.83,187.21 289.574,188.888 280.846,194.558 "
+           points="287.83,187.21 289.574,188.888 280.846,194.558 282.443,192.579 "
            id="polygon107"
            style="stroke-width:0.265925" /></g><g
          id="g113"
@@ -2618,14 +2620,14 @@
          transform="matrix(1.5795951,0,0,1.5795951,115.51178,289.76555)"
          style="stroke-width:0.676938"><polygon
            fill="#d3d3d3"
-           points="278.887,192.267 276.422,192.948 280.588,186.233 "
+           points="280.588,186.233 278.887,192.267 276.422,192.948 "
            id="polygon123"
            style="stroke-width:0.265925" /></g><g
          id="g129"
          transform="matrix(1.5795951,0,0,1.5795951,115.51178,289.76555)"
          style="stroke-width:0.676938"><polygon
            fill="#d3d3d3"
-           points="284.696,195.532 289.322,187.821 287.83,187.21 282.443,192.579 "
+           points="289.322,187.821 287.83,187.21 282.443,192.579 284.696,195.532 "
            id="polygon127"
            style="stroke-width:0.265925" /></g><g
          id="g133"

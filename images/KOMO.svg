@@ -15,7 +15,14 @@
    xmlns:cc="http://creativecommons.org/ns#"
    xmlns:dc="http://purl.org/dc/elements/1.1/">
   <defs
-     id="defs240" />
+     id="defs240">
+    <rect
+       x="-194.67328"
+       y="-189.41184"
+       width="1253.9766"
+       height="982.13548"
+       id="rect24713" />
+  </defs>
   <sodipodi:namedview
      id="namedview238"
      pagecolor="#ffffff"
@@ -26,7 +33,7 @@
      inkscape:pagecheckerboard="0"
      showgrid="false"
      inkscape:zoom="0.5701861"
-     inkscape:cx="301.6559"
+     inkscape:cx="313.05568"
      inkscape:cy="392.85419"
      inkscape:window-width="1920"
      inkscape:window-height="974"
@@ -42,32 +49,31 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
   <g
-     id="g1993"
-     transform="matrix(0.9923056,0,0,0.9923056,0.00289595,-20.132163)">
+     id="g34673">
     <rect
-       x="44.261162"
-       y="55.008423"
-       width="157.16"
-       height="113.69"
+       x="40.253967"
+       y="10.863886"
+       width="155.95076"
+       height="112.81522"
        fill="#ffffff"
        id="rect4"
-       transform="rotate(-0.05604628)" />
+       transform="rotate(-0.05604628)"
+       style="stroke-width:0.992306" />
     <rect
-       x="0.37136671"
-       y="4.8073468"
-       width="244.97505"
-       height="166.54091"
+       x="-3.3199294"
+       y="-15.365207"
+       width="243.09012"
+       height="165.25948"
        fill="#ffaaaa"
        id="rect6"
        transform="matrix(0.99999958,-9.1926723e-4,0.00104089,0.99999946,0,0)"
-       style="stroke-width:0.987237" />
+       style="stroke-width:0.979641" />
     <g
-       transform="matrix(0.82004063,-7.5383864e-4,8.0216203e-4,0.77064462,-27.802712,-59.598255)"
+       transform="matrix(0.99669025,-9.162273e-4,9.7496031e-4,0.93665356,-64.93275,-106.24265)"
        stroke-width="2.1743"
        id="g224">
       <g
@@ -492,25 +498,30 @@
       </g>
     </g>
     <text
-       x="44.133717"
-       y="141.58032"
+       x="42.356724"
+       y="129.85193"
        fill="#14302d"
        font-family="Cinzel"
        font-size="16.4735px"
        stroke-width="0.235496"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16.6983px;line-height:0.95;font-family:'Bodoni MT';-inkscape-font-specification:'Bodoni MT, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#14302d;stroke-width:0.23871"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16.5698px;line-height:0.95;font-family:'Californian FB';-inkscape-font-specification:'Californian FB';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#28220b;stroke-width:0.236873"
        xml:space="preserve"
        id="text230"
        transform="matrix(1.0315503,-9.482718e-4,0.00100906,0.96941375,0,0)"><tspan
          sodipodi:role="line"
          id="tspan548"
-         x="44.133717"
-         y="141.58032"
-         style="stroke-width:0.23871">         Nexus Emfo </tspan><tspan
+         x="42.356724"
+         y="129.85193"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Californian FB';-inkscape-font-specification:'Californian FB';fill:#28220b;stroke-width:0.236873">         Nexus Emfo </tspan><tspan
          sodipodi:role="line"
          id="tspan550"
-         x="44.133717"
-         y="157.44371"
-         style="stroke-width:0.23871">    Technology limited</tspan></text>
+         x="42.356724"
+         y="145.59323"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Californian FB';-inkscape-font-specification:'Californian FB';fill:#28220b;stroke-width:0.236873">    Technology limited</tspan></text>
   </g>
+  <text
+     xml:space="preserve"
+     transform="matrix(0.26458716,0,0,0.26458716,0,-0.00184049)"
+     id="text24711"
+     style="fill:black;fill-opacity:1;line-height:1.25;stroke:none;font-family:sans-serif;font-style:normal;font-weight:normal;font-size:40px;white-space:pre;shape-inside:url(#rect24713)" />
 </svg>

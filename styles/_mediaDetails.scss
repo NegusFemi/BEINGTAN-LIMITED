@@ -1,0 +1,64 @@
+@media screen and (max-width: 576px) {
+    #details {
+        //height: 70vh !important;
+        background: $back-color;
+    .container {
+        display: flex;
+        height: 78vh !important;
+        width: 100% !important;
+        top: 30px !important;
+        padding-left: 20px;
+        padding-right: 20px;
+        //margin-bottom: -50px !important;
+        position: relative;
+        z-index: 0;
+    .details-left {
+        display: flex !important;
+        justify-content: center !important;
+        position: absolute;
+        width: 100% !important;
+        font-family: 'socium_freeregular' !important;
+        font-weight: 600;
+        font-size: 28px !important;
+        color: $brand-color;
+        line-height: 0.3 !important;
+        top: -50px !important;
+        padding-right: 35px !important;
+        z-index: 3;
+        text-align: center !important;
+        flex-wrap: wrap !important;
+    .details-image {
+        width: 550px !important;
+        height: 440px !important;
+        margin-left: 100px !important;
+        margin-right: auto !important;
+        position: absolute !important;
+        display: flex;
+        justify-content: center !important;
+        align-self: center !important;
+        //right: -40px !important;
+        top: 160px !important;
+        padding-left: 0 !important;
+        overflow: visible !important;
+        z-index: 9999;
+    }
+    }
+    .details-right {
+        //position: relative;
+        width: 100% !important;
+        margin-top: 310px !important;
+        margin-left: 10px !important;
+        display: flex !important;
+        //flex-direction: column;
+        justify-content: center !important;
+        white-space: nowrap;
+        font-family: 'cinzelregular';
+        font-weight: 600;
+        font-size: 12px !important;
+        line-height: 0.8 !important;
+        color: $brand-color;
+        z-index: 2;
+    }
+    }
+    }
+}

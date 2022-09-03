@@ -1,8 +1,8 @@
 .btn-1 {
-    position: absolute;
-    top: 78%;
-    left: 55%;
-    transform: translateX(-50%);
+    position: relative !important;
+    top: -23% !important;
+    left: 60% !important;
+    transform: translateX(-40%) !important;
     z-index: 60000;
 a {
     text-decoration: none;

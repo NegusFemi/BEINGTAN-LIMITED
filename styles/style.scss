@@ -7,6 +7,16 @@ $brand-color: #0d1b22;
 
 @import "./navigation2";
 
+@import "./mediaQueries";
+
+@import "./mediaDetails";
+
+@import "./mediaServices";
+
+@import "./mediaClients";
+
+@import "./mediaFooter";
+
 @import "./footer";
 
 
@@ -64,6 +74,14 @@ $brand-color: #0d1b22;
     font-style: normal;
 }
 
+@font-face {
+    font-family: 'socium_freeregular';
+    src: url('../FONTS/sociumfree-regular-webfont.woff2') format('woff2'),
+         url('../FONTS/sociumfree-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
 *{
     box-sizing: border-box !important;
     padding: 0;
@@ -93,18 +111,25 @@ body, html {
     padding-left: 20px;
     padding-right: 20px;
     background: $back-color;
-    position: relative;
+    position: relative !important;
     display: flex;
     justify-content: flex-start;
     align-items: flex-start;
+.carousel-inner {
+    overflow: visible !important;
 .carousel-item img {
     display: flex;
-    justify-content: flex-start;
-    align-items: flex-start;
+    flex-wrap: nowrap !important;
+    align-self: flex-end !important;
+    //justify-content: flex-end !important;
+    //align-items: flex-end !important;
+    height: auto !important;
     width: 750px !important;
-    position: static;
-    padding-left: -40% !important;
-    z-index: 1;
+    position: relative !important;
+    top: 0px !important;
+    padding-left: 0% !important;
+    z-index: 9999999999999999999999999999999999999999999999999999999999;
+}
 }
 .carousel-indicators {
     position: relative;
@@ -414,18 +439,18 @@ hr {
     border-radius: 7px;
 }
 .overlay {
-    width: 35%;
-    height: 55%;
+    width: 67%;
+    height: 70%;
     position: absolute;
-    top: 185px;
+    top: 0;
     left: 50px;
     bottom: 0px;
     border-radius: 7px;
     cursor: pointer;
-    background: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9));
+    background: linear-gradient(rgba(1, 50, 64, 0.9), rgba(0, 0, 0, 0.9));
     opacity: 0;
     transition: 1s;
-    z-index: 99;
+    z-index: 1;
 p {
     font-family: 'gamourregular';
     font-weight: 200;
@@ -479,6 +504,14 @@ img {
 .client-5 {
     align-self: flex-end;
 }
+.swiper-pagination {
+    display: flex !important;
+    flex-direction: row !important;
+    justify-content: center !important;
+    //align-self: center !important;
+    margin-bottom: -10px !important;
+    color: rgb(251, 253, 254) !important;
+  }
 }
 }
 }

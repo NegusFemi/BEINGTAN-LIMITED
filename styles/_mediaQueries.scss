@@ -1,0 +1,119 @@
+/*LANDING PAGE MEDIA QUERY FOR MOBILE AND TABLET VIEW*/
+@media screen and (max-width: 576px) {
+    #home {
+        //height: 100vh !important;
+    .container {
+        width: 100% !important;
+        height: 69vh !important;
+        //margin-bottom: -25px;
+        padding-left: 20px;
+        padding-right: 20px;
+        background: $back-color;
+        position: relative !important;
+        display: block !important;
+        margin-left: auto !important;
+        margin-right: auto !important;
+        //justify-content: flex-start;
+        //align-items: flex-start;
+    .carousel-item {
+        position: relative !important;
+    img {
+        display: block !important;
+        position: relative !important;
+        object-fit: fit !important;
+        height: auto !important;
+        max-width: 650px !important;
+        margin-top: 35px !important;
+        left: -15% !important;
+        z-index: 9999999999999999999999999999;
+    }
+}
+    .worded {
+        display: flex;
+        align-self: flex-start;
+        flex-wrap: nowrap;
+        top: -46px !important;
+        color: $brand-color !important;
+        word-spacing: -20px !important;
+        font-family: 'socium_freeregular' !important;
+        font-weight: 600 !important;
+        font-size: 30px !important;
+        line-height: 0 !important;
+        text-transform: uppercase;
+        position: absolute;
+        //z-index: 999;
+    }
+    #worded {
+        display: flex;
+        justify-content: center;
+        flex-wrap: nowrap;
+        top: -146px !important;
+        font-family: 'socium_freeregular' !important;
+        color: #fac6fa !important;
+        -webkit-text-stroke: 2px;
+        -webkit-text-stroke-color: #112e366d !important;
+        font-weight: 200 !important;
+        word-spacing: -10px !important;
+        font-size: 23px !important;
+        line-height: 0 !important;
+        text-transform: uppercase;
+        position: absolute;
+        //z-index: 990;
+    }
+    .worded1 {
+        display: flex;
+        justify-content: flex-start;
+        white-space: nowrap;
+        top: 1px !important;
+        color: $brand-color !important;
+        font-family: 'socium_freeregular' !important;
+        font-weight: 700 !important;
+        word-spacing: -2px !important;
+        font-size: 55px !important;
+        position: relative;
+        line-height: 0 !important;
+        text-transform: uppercase;
+        z-index: 99;
+    }
+    .text-company {
+        top: -175px !important;
+        color: $brand-color !important;
+        font-family: 'socium_freeregular' !important;
+        font-weight: 600 !important;
+        word-spacing: -2px !important;
+        font-size: 30px !important;
+        text-transform: uppercase;
+        position: absolute;
+        z-index: 99999999;
+    }
+    
+    /* CURSOR FOR TYPEWRITER */
+    #worded:after {
+        content: "";
+        position: absolute;
+        height: 1.5rem !important;
+        width: 4px;
+        top: 260px;
+        right: -5px;
+        border-right: 2px solid rgb(243, 248, 245);
+        animation: blink 0.5s infinite ease;
+    }
+    @keyframes blink {
+        0%{
+            opacity: 0;
+        }
+        100%{
+            opacity: 1;
+        }
+    }
+    }
+    }
+    
+    #home:before {
+        display: block;
+        content: "";
+        margin-top: 3px;
+        height: 43px;
+        visibility: hidden;
+    } 
+}

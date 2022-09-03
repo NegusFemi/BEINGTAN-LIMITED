@@ -1,12 +1,109 @@
+@media screen and (max-width: 576px) {
+  #header-3 .container {
+    width: 100% !important;
+    height: 200px !important;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    position: relative;
+    overflow-y: hidden;
+  }
+  #header-3 .container .home-icon {
+    display: none !important;
+    position: absolute;
+    max-width: 10px;
+    max-height: 10px;
+  }
+  #header-3 .container .back-image2 {
+    position: relative !important;
+    width: 100% !important;
+    height: 10% !important;
+    padding: 0 !important;
+    margin: 0 !important;
+    background-color: #c8d9eb; /*FALLBACK COLOR*/
+    background: linear-gradient(to bottom, rgba(247, 115, 247, 0.2), rgba(31, 115, 136, 0.2)), url("../images/projectManagement.png") !important;
+    background-repeat: no-repeat !important;
+    background-position: left -8% center !important;
+    background-size: contain !important;
+    overflow-y: hidden;
+    opacity: 0.9 !important;
+  }
+  #header-3 .container .left-title {
+    position: absolute;
+    left: 59% !important;
+    transform: translateX(-41%) !important;
+    top: -13px !important;
+    word-spacing: -0.7rem !important;
+    margin: 0 !important;
+    color: #0d1b22;
+    font-family: "socium_freeregular" !important;
+    font-weight: 800 !important;
+    font-size: 30px !important;
+    line-height: 1 !important;
+    text-transform: uppercase;
+    white-space: nowrap;
+  }
+  #header-3 .container .left-title2 {
+    position: absolute;
+    left: 69% !important;
+    transform: translateX(-31%) !important;
+    padding-top: 0 !important;
+    padding-bottom: 3px !important;
+    top: -13px !important;
+    color: rgb(32, 46, 46);
+    font-family: "socium_freeregular" !important;
+    font-weight: 800 !important;
+    font-size: 14px !important;
+    text-transform: uppercase;
+    display: flex;
+    align-self: center;
+    white-space: nowrap;
+    border-top: #0d1b22 2px solid;
+    border-bottom: #0d1b22 2px solid;
+  }
+  #content .container {
+    width: 100% !important;
+    height: 165vh !important;
+    background: #f5f6fc;
+    position: relative;
+    overflow-y: hidden;
+  }
+  #content .container .content-body {
+    font-family: "cinzelregular";
+    font-weight: 800 !important;
+    font-size: 14px !important;
+    padding-top: 20px;
+    line-height: 1.4;
+    padding-left: 12px !important;
+    padding-right: 12px !important;
+    text-align: center;
+  }
+  #content .container .content-competence {
+    font-family: "cinzelregular";
+    font-weight: 800 !important;
+    font-size: 14px !important;
+    line-height: 1.3;
+    padding-left: 12px !important;
+    padding-right: 12px !important;
+    padding-top: -35px;
+    margin-bottom: -35px;
+    padding-bottom: 30px;
+    text-align: center;
+  }
+  #content .container .content-competence h2 {
+    font-family: "socium_freeregular" !important;
+    font-weight: 800 !important;
+    font-size: 30px !important;
+    color: #0d1b22;
+    line-height: 28px !important;
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 0;
+  }
+}
 @font-face {
   font-family: "oldsman_no.1regular";
   src: url("../fonts/oldsman-no.1-webfont.woff2") format("woff2"), url("../fonts/oldsman-no.1-webfont.woff") format("woff"), url("../fonts/Oldsman-No1.otf") format("otf");
-  font-weight: normal;
-  font-style: normal;
-}
-@font-face {
-  font-family: "moriartyregular";
-  src: url("../fonts/moriarty-webfont.woff2") format("woff2"), url("../fonts/modern_no._20-webfont.woff") format("woff"), url("../fonts/Moriarty.ttf") format("ttf");
   font-weight: normal;
   font-style: normal;
 }
@@ -17,20 +114,8 @@
   font-style: normal;
 }
 @font-face {
-  font-family: "artefactlightuploaded_file";
-  src: url("../fonts/artefact_light-webfont.woff2") format("woff2"), url("../fonts/artefact_light-webfont.woff") format("woff"), url("../fonts/Artefact Light.otf") format("otf");
-  font-weight: normal;
-  font-style: normal;
-}
-@font-face {
-  font-family: "gamourregular";
-  src: url("../fonts/gamour_regular-webfont.woff2") format("woff2"), url("../fonts/gamour_regular-webfont.woff") format("woff"), url("../fonts/Gamour Regular.otf") format("otf");
-  font-weight: normal;
-  font-style: normal;
-}
-@font-face {
-  font-family: "manchester_signatureregular";
-  src: url("../fonts/manchester_signature-webfont.woff2") format("woff2"), url("../fonts/manchester_signature-webfont.woff") format("woff"), url("../fonts/Manchester Signature.otf") format("otf");
+  font-family: "socium_freeregular";
+  src: url("../FONTS/sociumfree-regular-webfont.woff2") format("woff2"), url("../FONTS/sociumfree-regular-webfont.woff") format("woff");
   font-weight: normal;
   font-style: normal;
 }

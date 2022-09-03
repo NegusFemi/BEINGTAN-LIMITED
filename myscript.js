@@ -83,8 +83,8 @@ function init(){
 
 /* NAVIGATION SECTION */
 function openSlideMenu(){
-    document.getElementById("side-menu").style.width = "350px";
-    document.getElementById("body").style.marginLeft = "350px";
+    document.getElementById("side-menu").style.width = "360px";
+    document.getElementById("body").style.marginLeft = "360px";
     document.getElementById("overlay-body").style.display = "block";
     document.getElementById("worded").style.fontSize = "40px";
 }

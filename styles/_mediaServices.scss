@@ -1,0 +1,129 @@
+@media screen and (max-width: 576px) {
+#services {
+    height: 100% !important;
+    .container {
+        height: 128vh !important;
+        min-width: 100% !important;
+        padding-top: 30px !important;
+        padding-left: 20px;
+        padding-right: 20px;
+        background: $back-color;
+        position: relative;
+        overflow-x: visible !important;
+        overflow-y: visible !important;
+    .services-title {
+        font-family: 'socium_freeregular' !important;
+        font-weight: 800 !important;
+        font-size: 27px !important;
+        display: flex;
+        justify-content: center;
+        color: $brand-color;
+        word-spacing: 0.3 !important;
+        margin-top: 0px !important;
+    }
+    hr {
+        width: 190px !important;
+        height: 1px !important;
+        color: $brand-color;
+        margin: 0 17% auto !important;
+        opacity: 1;
+    }
+    .services-title-2 {
+        font-family: 'gamourregular';
+        font-weight: 700;
+        font-size: 12px !important;
+        display: flex;
+        justify-content: center;
+        color: $brand-color;
+        padding-top: 10px;
+        line-height: 1.7 !important;
+        word-spacing: -1.8px !important;
+    }
+    .services-container {
+        width: 100% !important;
+        position: relative !important;
+        min-height: 100vh !important;
+        overflow-y: visible !important;
+        background: #ccc;
+        display: flex !important;
+        flex-direction: column !important;
+        padding-left: 0px !important;
+        padding-right: 0px !important;
+        box-shadow: 0 30px 60px -12px rgba(100,70,93,.09),
+        0 18px 36px -18px rgba(0,40,0,.09),
+        0 -12px 36px -8px rgba(0,60,0,.09),
+        0 -12px 36px -8px rgba(0,50,0,.09);
+        &:hover img {
+            width: 50px !important;
+            height: 110px !important;
+            margin-top: 20% !important;
+            padding-top: 40px !important;
+            margin-left: auto !important;
+            margin-right: auto !important;
+        }
+    .col {
+            height: 100vh !important;
+            width: 100% !important;
+            flex: 1 !important;
+            color: #fff;
+            box-sizing: border-box;
+            padding: 10px;
+            position: relative !important;
+            transition: 1.0s;
+        &:hover .caption {
+            display: block !important;
+        }
+        &:nth-child(1) {
+            background: #ddb6c6df;
+        }
+        &:nth-child(2) {
+            background:#b2b7ff30;
+        }
+        &:nth-child(3) {
+            background: #c8d9eb;
+        }
+        &:nth-child(4) {
+            background: #c4c1e0;
+        }
+        h1 {
+            font-family: 'socium_freeregular' !important;
+            font-weight: 600 !important;
+            font-size: 16px !important;
+            color: #263a34;
+            text-align: center;
+        }
+        img {
+            display: block !important;
+            margin-left: auto !important;
+            margin-right: auto !important;
+            width: 150px !important;
+            position: absolute;
+            right: 0 !important;
+            left: 0 !important;
+            z-index: 1;
+        }
+        &:hover {
+            flex-grow: 2.3 !important;
+        }
+        &:hover h1 {
+            text-align: center !important;
+        }
+        .caption {
+            max-width: 430px;
+            font-family: 'gamourregular';
+            font-weight: 600 !important;
+            font-size: 12px !important;
+            color: #263a34;
+            margin: -2px 0 !important;
+            padding-top: 10px !important;
+            padding-bottom: 13px !important;
+            display: none;
+        }
+        }
+        }
+        //display: block !important;
+        //margin-left: auto !important;
+        //margin-right: auto !important;
+    }
+}
+}
