@@ -1,0 +1,61 @@
+#preloader {
+    margin: 0 !important;
+    padding: 0 !important;
+    left: 0 !important;
+    right: 0 !important;
+    overflow: hidden !important;
+    background: linear-gradient(to bottom, #ececeb, #497285)!important;
+    height: 100vh !important;
+    width: 100% !important;
+    position: fixed !important;
+    z-index: 9999999999999999999999999999999999999999;
+.loader-text {
+    width: max-content !important;
+    position: absolute !important;
+    top: 50% !important;
+    left: 49% !important;
+    transform: translate(-50%, -50%) !important;
+}
+.loader-text span {
+    display: inline-block !important;
+    font-family: 'artefactlightuploaded_file' !important;
+    font-size: 190px !important;
+    font-weight: 700 !important;
+    -webkit-text-stroke: 1px #032535 !important;
+    -webkit-text-fill-color: transparent !important;
+    transform: translateY(150px) !important;
+    transition: transform 1s, opacity 0.5s, -webkit-text-stroke-color 0.5s !important;
+    opacity: 0 !important;
+}
+.loader-text span.active {
+    transform: translateY(0px) !important;
+    opacity: 1 !important;
+}
+.loader-text span:nth-child(1){
+    transition-delay: 0.5s !important;
+}
+.loader-text span:nth-child(2){
+    transition-delay: 1.0s !important;
+}
+.loader-text span:nth-child(3){
+    transition-delay: 1.5s !important;
+}
+.loader-text span:nth-child(4){
+    transition-delay: 2s !important;
+}
+.loader-text span:nth-child(5){
+    transition-delay: 2.5s !important;
+}
+.loader-text span:nth-child(6){
+    transition-delay: 3s !important;
+}
+.loader-text span:nth-child(7){
+    transition-delay: 3.5s !important;
+}
+.loader-text span:nth-child(8){
+    transition-delay: 4s !important;
+}
+.loader-text:load span{
+    -webkit-text-stroke-color: #dfebed !important;
+}
+}
