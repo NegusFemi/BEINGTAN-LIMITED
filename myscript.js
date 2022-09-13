@@ -1,4 +1,24 @@
 //LOADER
+//LOADER
+let timing;
+
+function loaderFunction(){
+    timing = setTimeout(showPage, 6000);
+}
+loaderFunction();
+
+function showPage(){
+    document.getElementById("preloader").style.display = "none";
+    document.getElementById("body").style.display = "block";
+}
+
+//PRELOADER TEXT ANIMATION
+let spanTexts = document.getElementsByTagName("span");
+window.onload = () => {
+    for(spanText of spanTexts) {
+        spanText.classList.add("active");
+    }
+};
 /*
 let timing;
 
