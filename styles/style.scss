@@ -1,5 +1,5 @@
 $back-color: #04cffd0d;
-$brand-color: #0d1b22;
+$brand-color: #2b4450;
 
 @import "./buttons";
 
@@ -110,6 +110,7 @@ body, html {
     min-width: 100%;
     height: 100vh;
     bottom: 0px;
+    padding-top: 20px;
     padding-left: 20px;
     padding-right: 20px;
     background: $back-color;
@@ -145,7 +146,7 @@ body, html {
     flex-wrap: nowrap;
     padding-top: 107px;
     color: $brand-color;
-    font-family: 'oldsman_no.1regular';
+    font-family: 'artefactlightuploaded_file';
     font-weight: 550;
     font-size: 90px;
     line-height: 0.8 !important;
@@ -157,10 +158,11 @@ body, html {
     display: flex;
     justify-content: center;
     flex-wrap: nowrap;
-    padding-top: 255px;
-    font-family: 'oldsman_no.1regular';
+    padding-top: 256px;
+    font-family: 'artefactlightuploaded_file';
     font-weight: 550;
-    font-size: 53px;
+    font-size: 55px;
+    word-spacing: 5px !important;
     -webkit-text-stroke: 2px;
     -webkit-text-stroke-color: #242d33;
     color: rgba(254, 255, 255, 0.969);
@@ -175,18 +177,18 @@ body, html {
     white-space: nowrap;
     padding-top: 18px;
     color: $brand-color;
-    font-family: 'oldsman_no.1regular';
+    font-family: 'artefactlightuploaded_file';
     font-weight: 550;
-    font-size: 140px;
+    font-size: 120px;
     position: relative;
-    line-height: 0.8 !important;
+    line-height: 0.9 !important;
     text-transform: uppercase;
     z-index: 99;
 }
 .text-company {
-    padding-top: 309px;
+    padding-top: 314px;
     color: $brand-color;
-    font-family: 'oldsman_no.1regular';
+    font-family: 'artefactlightuploaded_file';
     font-weight: 550;
     font-size: 77px;
     text-transform: uppercase;
@@ -233,16 +235,16 @@ body, html {
     width: 100%;
     margin-top: 0px;
     margin-bottom: 20px;
-    top: -40px;
+    top: -20px;
     padding-left: 20px;
     padding-right: 20px;
     position: relative;
     z-index: 0;
 .details-left {
     position: absolute;
-    font-family: 'oldsman_no.1regular';
-    font-weight: 600;
-    font-size: 53px;
+    font-family: 'artefactlightuploaded_file';
+    font-weight: 550;
+    font-size: 48px;
     color: $brand-color;
     line-height: 1.0 !important;
     padding-top: 30px;
@@ -265,7 +267,7 @@ body, html {
 .details-right {
     //position: relative;
     width: 100%;
-    margin-top: 120px;
+    margin-top: 150px;
     margin-right: 0px;
     display: flex;
     flex-direction: column;
@@ -294,7 +296,7 @@ body, html {
     position: relative;
     overflow: hidden;
 .services-title {
-    font-family: 'oldsman_no.1regular';
+    font-family: 'artefactlightuploaded_file';
     font-weight: 200;
     font-size: 50px;
     display: flex;
@@ -358,8 +360,8 @@ hr {
     background: #c4c1e0;
 }
 h1 {
-    font-family: 'oldsman_no.1regular';
-    font-weight: 700;
+    font-family: 'artefactlightuploaded_file';
+    font-weight: 600;
     font-size: 23px;
     color: #263a34;
     text-align: center;
@@ -411,7 +413,7 @@ img {
     justify-content: flex-start;
 }
 .client-title {
-    font-family: 'oldsman_no.1regular';
+    font-family: 'artefactlightuploaded_file';
     font-weight: 200;
     font-size: 50px;
     display: flex;
@@ -476,7 +478,7 @@ h2 {
 }
 }
 .client-right {
-    font-family: 'oldsman_no.1regular';
+    font-family: 'artefactlightuploaded_file';
     font-weight: 200;
     font-size: 30px;
     color: $brand-color;

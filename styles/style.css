@@ -54,7 +54,7 @@
 }
 .btn-2:hover {
   color: #fff;
-  background: #0d1b22;
+  background: #2b4450;
   transition: 1s;
 }
 
@@ -68,7 +68,7 @@
   height: 100vh !important;
   width: 100% !important;
   position: fixed !important;
-  z-index: 9999999999999998000000000000000000000000;
+  z-index: 9999999999999998000000000000000000000000 !important;
 }
 #preloader .loader-text {
   width: -webkit-max-content !important;
@@ -122,6 +122,40 @@
   -webkit-text-stroke-color: #dfebed !important;
 }
 
+@media screen and (max-width: 576px) {
+  #preloader {
+    margin: 0 !important;
+    padding: 0 !important;
+    left: 0 !important;
+    right: 0 !important;
+    overflow: hidden !important;
+    background: linear-gradient(to bottom, #ececeb, #497285) !important;
+    height: 100vh !important;
+    width: 100% !important;
+    position: fixed !important;
+    z-index: 9999999999999998000000000000000000000000 !important;
+  }
+  #preloader .loader-text {
+    width: -webkit-max-content !important;
+    width: -moz-max-content !important;
+    width: max-content !important;
+    position: absolute !important;
+    top: 33% !important;
+    left: 49% !important;
+    transform: translate(-50%, -50%) !important;
+  }
+  #preloader .loader-text span {
+    display: inline-block !important;
+    font-family: "artefactlightuploaded_file" !important;
+    font-size: 65px !important;
+    font-weight: 800 !important;
+    -webkit-text-stroke: 2px #032535 !important;
+    -webkit-text-fill-color: transparent !important;
+    transform: translateY(150px) !important;
+    transition: transform 1s, opacity 0.5s, -webkit-text-stroke-color 0.5s !important;
+    opacity: 0 !important;
+  }
+}
 #header .nav-container {
   position: relative;
   height: 0.1vh;
@@ -159,7 +193,7 @@
   position: absolute;
   top: 50%;
   transform: translateY(-50%);
-  color: #0d1b22;
+  color: #2b4450;
   padding: 2px 7px;
   text-decoration: none;
   font-size: 12.5px;
@@ -205,8 +239,8 @@
   text-decoration: none;
   text-align: center;
   font-size: 29px;
-  font-family: "oldsman_no.1regular";
-  font-weight: 700;
+  font-family: "artefactlightuploaded_file";
+  font-weight: 599;
   position: relative;
   left: -10px;
   top: 30px;
@@ -362,7 +396,7 @@
     align-self: flex-start;
     flex-wrap: nowrap;
     top: -46px !important;
-    color: #0d1b22 !important;
+    color: #2b4450 !important;
     word-spacing: -20px !important;
     font-family: "socium_freeregular" !important;
     font-weight: 600 !important;
@@ -392,7 +426,7 @@
     justify-content: flex-start;
     white-space: nowrap;
     top: 1px !important;
-    color: #0d1b22 !important;
+    color: #2b4450 !important;
     font-family: "socium_freeregular" !important;
     font-weight: 700 !important;
     word-spacing: -2px !important;
@@ -404,7 +438,7 @@
   }
   #home .container .text-company {
     top: -175px !important;
-    color: #0d1b22 !important;
+    color: #2b4450 !important;
     font-family: "socium_freeregular" !important;
     font-weight: 600 !important;
     word-spacing: -2px !important;
@@ -470,7 +504,7 @@
     font-family: "socium_freeregular" !important;
     font-weight: 600;
     font-size: 28px !important;
-    color: #0d1b22;
+    color: #2b4450;
     line-height: 0.3 !important;
     top: -50px !important;
     padding-right: 35px !important;
@@ -503,7 +537,7 @@
     font-weight: 600;
     font-size: 12px !important;
     line-height: 0.8 !important;
-    color: #0d1b22;
+    color: #2b4450;
     z-index: 2;
   }
 }
@@ -528,14 +562,14 @@
     font-size: 27px !important;
     display: flex;
     justify-content: center;
-    color: #0d1b22;
+    color: #2b4450;
     word-spacing: 0.3 !important;
     margin-top: 0px !important;
   }
   #services .container hr {
     width: 190px !important;
     height: 1px !important;
-    color: #0d1b22;
+    color: #2b4450;
     margin: 0 17% auto !important;
     opacity: 1;
   }
@@ -545,7 +579,7 @@
     font-size: 12px !important;
     display: flex;
     justify-content: center;
-    color: #0d1b22;
+    color: #2b4450;
     padding-top: 10px;
     line-height: 1.7 !important;
     word-spacing: -1.8px !important;
@@ -696,14 +730,14 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    color: #0d1b22;
+    color: #2b4450;
     word-spacing: 0.3px !important;
     width: 100% !important;
   }
   #client-section .container hr {
     width: 250px !important;
     height: 1px !important;
-    color: #0d1b22;
+    color: #2b4450;
     margin: 0 5% auto !important;
     opacity: 1;
   }
@@ -711,7 +745,7 @@
     font-family: "gamourregular";
     font-weight: 600 !important;
     font-size: 12.5px !important;
-    color: #0d1b22;
+    color: #2b4450;
     padding-top: 10px !important;
     line-height: 1.5 !important;
     word-spacing: 1px !important;
@@ -837,7 +871,7 @@
     font-size: 26px !important;
     display: flex !important;
     justify-content: center !important;
-    color: #0d1b22;
+    color: #2b4450;
     width: 100% !important;
     padding-top: 20px;
     left: 0 !important;
@@ -846,7 +880,7 @@
   #contact .container hr {
     width: 81px !important;
     height: 1px !important;
-    color: #0d1b22;
+    color: #2b4450;
     margin: 0 31.5% auto !important;
     opacity: 1 !important;
     padding: 0 !important;
@@ -860,7 +894,7 @@
     align-items: flex-start !important;
     position: absolute !important;
     font-weight: 800 !important;
-    color: #0d1b22;
+    color: #2b4450;
     cursor: pointer;
     -webkit-animation: move-up 2s infinite alternate;
             animation: move-up 2s infinite alternate;
@@ -934,7 +968,7 @@
     display: flex !important;
     font-family: "artefactlightuploaded_file";
     font-weight: 800 !important;
-    color: #0d1b22 !important;
+    color: #2b4450 !important;
     position: absolute !important;
     left: -13% !important;
     margin-bottom: -110px !important;
@@ -1016,12 +1050,12 @@
   z-index: 0;
 }
 #contact .container .contact-title {
-  font-family: "oldsman_no.1regular";
+  font-family: "artefactlightuploaded_file";
   font-weight: 200;
   font-size: 55px;
   display: flex;
   justify-content: center;
-  color: #0d1b22;
+  color: #2b4450;
   width: 100%;
   padding-top: 20px;
   position: absolute;
@@ -1030,7 +1064,7 @@
 #contact .container hr {
   width: 170px;
   height: 2px;
-  color: #0d1b22;
+  color: #2b4450;
   margin: 0 41% auto;
   opacity: 1;
   padding: 0px;
@@ -1044,7 +1078,7 @@
   align-items: center;
   position: absolute;
   font-weight: 600;
-  color: #0d1b22;
+  color: #2b4450;
   cursor: pointer;
   -webkit-animation: move-up 2s infinite alternate;
           animation: move-up 2s infinite alternate;
@@ -1087,7 +1121,7 @@
   font-family: "artefactlightuploaded_file";
   font-weight: 800;
   font-size: 25px;
-  color: #0d1b22;
+  color: #2b4450;
   position: absolute;
   line-height: 1.4;
   display: flex;
@@ -1099,7 +1133,7 @@
   font-family: "manchester_signatureregular";
   font-weight: 500;
   font-size: 45px;
-  color: #0d1b22;
+  color: #2b4450;
   position: absolute;
   line-height: 1.2;
   display: flex;
@@ -1112,7 +1146,7 @@
   font-family: "artefactlightuploaded_file";
   font-weight: 600;
   font-size: 22px;
-  color: #0d1b22;
+  color: #2b4450;
   position: absolute;
   left: 75%;
   align-self: center;
@@ -1227,6 +1261,7 @@ body, html {
   min-width: 100%;
   height: 100vh;
   bottom: 0px;
+  padding-top: 20px;
   padding-left: 20px;
   padding-right: 20px;
   background: rgba(4, 207, 253, 0.0509803922);
@@ -1261,8 +1296,8 @@ body, html {
   align-self: flex-start;
   flex-wrap: nowrap;
   padding-top: 107px;
-  color: #0d1b22;
-  font-family: "oldsman_no.1regular";
+  color: #2b4450;
+  font-family: "artefactlightuploaded_file";
   font-weight: 550;
   font-size: 90px;
   line-height: 0.8 !important;
@@ -1274,10 +1309,11 @@ body, html {
   display: flex;
   justify-content: center;
   flex-wrap: nowrap;
-  padding-top: 255px;
-  font-family: "oldsman_no.1regular";
+  padding-top: 256px;
+  font-family: "artefactlightuploaded_file";
   font-weight: 550;
-  font-size: 53px;
+  font-size: 55px;
+  word-spacing: 5px !important;
   -webkit-text-stroke: 2px;
   -webkit-text-stroke-color: #242d33;
   color: rgba(254, 255, 255, 0.969);
@@ -1291,19 +1327,19 @@ body, html {
   justify-content: flex-start;
   white-space: nowrap;
   padding-top: 18px;
-  color: #0d1b22;
-  font-family: "oldsman_no.1regular";
+  color: #2b4450;
+  font-family: "artefactlightuploaded_file";
   font-weight: 550;
-  font-size: 140px;
+  font-size: 120px;
   position: relative;
-  line-height: 0.8 !important;
+  line-height: 0.9 !important;
   text-transform: uppercase;
   z-index: 99;
 }
 #home .container .text-company {
-  padding-top: 309px;
-  color: #0d1b22;
-  font-family: "oldsman_no.1regular";
+  padding-top: 314px;
+  color: #2b4450;
+  font-family: "artefactlightuploaded_file";
   font-weight: 550;
   font-size: 77px;
   text-transform: uppercase;
@@ -1356,7 +1392,7 @@ body, html {
   width: 100%;
   margin-top: 0px;
   margin-bottom: 20px;
-  top: -40px;
+  top: -20px;
   padding-left: 20px;
   padding-right: 20px;
   position: relative;
@@ -1364,10 +1400,10 @@ body, html {
 }
 #details .container .details-left {
   position: absolute;
-  font-family: "oldsman_no.1regular";
-  font-weight: 600;
-  font-size: 53px;
-  color: #0d1b22;
+  font-family: "artefactlightuploaded_file";
+  font-weight: 550;
+  font-size: 48px;
+  color: #2b4450;
   line-height: 1 !important;
   padding-top: 30px;
   z-index: 3;
@@ -1387,7 +1423,7 @@ body, html {
 }
 #details .container .details-right {
   width: 100%;
-  margin-top: 120px;
+  margin-top: 150px;
   margin-right: 0px;
   display: flex;
   flex-direction: column;
@@ -1398,7 +1434,7 @@ body, html {
   font-weight: 800;
   font-size: 16px;
   line-height: 2.8 !important;
-  color: #0d1b22;
+  color: #2b4450;
   z-index: 2;
 }
 
@@ -1416,18 +1452,18 @@ body, html {
   overflow: hidden;
 }
 #services .container .services-title {
-  font-family: "oldsman_no.1regular";
+  font-family: "artefactlightuploaded_file";
   font-weight: 200;
   font-size: 50px;
   display: flex;
   justify-content: center;
-  color: #0d1b22;
+  color: #2b4450;
   padding-top: 7px;
 }
 #services .container hr {
   width: 265px;
   height: 2px;
-  color: #0d1b22;
+  color: #2b4450;
   margin: 0 36% auto;
   opacity: 1;
 }
@@ -1437,7 +1473,7 @@ body, html {
   font-size: 20px;
   display: flex;
   justify-content: center;
-  color: #0d1b22;
+  color: #2b4450;
   padding-top: 10px;
   line-height: 1.3;
 }
@@ -1479,8 +1515,8 @@ body, html {
   background: #c4c1e0;
 }
 #services .container .services-container .col h1 {
-  font-family: "oldsman_no.1regular";
-  font-weight: 700;
+  font-family: "artefactlightuploaded_file";
+  font-weight: 600;
   font-size: 23px;
   color: #263a34;
   text-align: center;
@@ -1529,19 +1565,19 @@ body, html {
   justify-content: flex-start;
 }
 #client-section .container .client-title {
-  font-family: "oldsman_no.1regular";
+  font-family: "artefactlightuploaded_file";
   font-weight: 200;
   font-size: 50px;
   display: flex;
   justify-content: center;
   align-items: center;
-  color: #0d1b22;
+  color: #2b4450;
   width: 100%;
 }
 #client-section .container hr {
   width: 265px;
   height: 2px;
-  color: #0d1b22;
+  color: #2b4450;
   margin: 0 35% auto;
   opacity: 1;
 }
@@ -1549,7 +1585,7 @@ body, html {
   font-family: "gamourregular";
   font-weight: 600;
   font-size: 18px;
-  color: #0d1b22;
+  color: #2b4450;
   padding-top: 10px;
   line-height: 1.2;
 }
@@ -1590,10 +1626,10 @@ body, html {
   opacity: 1;
 }
 #client-section .container .client-right {
-  font-family: "oldsman_no.1regular";
+  font-family: "artefactlightuploaded_file";
   font-weight: 200;
   font-size: 30px;
-  color: #0d1b22;
+  color: #2b4450;
   display: flex;
   padding-left: 0px;
   flex-basis: 100%;

@@ -1,5 +1,5 @@
 $back-color: #f5f6fc;
-$brand-color: #0d1b22;
+$brand-color: #2b4450;
 
 @import "./mediaProject";
 
@@ -29,6 +29,15 @@ $brand-color: #0d1b22;
     font-style: normal;
 }
 
+@font-face {
+    font-family: 'artefactlightuploaded_file';
+    src: url('../fonts/artefact_light-webfont.woff2') format('woff2'),
+         url('../fonts/artefact_light-webfont.woff') format('woff'),
+         url('../fonts/Artefact\ Light.otf') format('otf');
+    font-weight: normal;
+    font-style: normal;
+}
+
 html {
     scroll-behavior: smooth;
 }
@@ -51,7 +60,7 @@ body, html {
     position: absolute;
     max-width: 10px;
     max-height: 10px;
-    font-family: 'oldsman_no.1regular';
+    font-family: 'artefactlightuploaded_file';
     font-weight: 200;
     font-size: 13px;
     padding-left: 14px;
@@ -75,7 +84,7 @@ body, html {
     padding-top: 25px !important;
     margin: 0 !important;
     color: $brand-color;
-    font-family: 'oldsman_no.1regular';
+    font-family: 'artefactlightuploaded_file';
     font-weight: 200;
     font-size: 72px;
     line-height: 1.0 !important;
@@ -90,7 +99,7 @@ body, html {
     padding-bottom: 3px !important;
     margin-top: 60px !important;
     color: rgb(32, 46, 46);
-    font-family: 'oldsman_no.1regular';
+    font-family: 'artefactlightuploaded_file';
     font-weight: 200;
     font-size: 55px;
     text-transform: uppercase;
@@ -131,7 +140,7 @@ body, html {
     padding-bottom: 30px;
     text-align: center;
 h2 {
-    font-family: 'oldsman_no.1regular';
+    font-family: 'artefactlightuploaded_file';
     font-weight: 200;
     font-size: 50px;
     color: $brand-color;
